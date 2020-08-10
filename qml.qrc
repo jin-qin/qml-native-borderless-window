@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/title_button_win/close_click.png</file>
+        <file>res/title_button_win/close_click@2x.png</file>
+        <file>res/title_button_win/close_click@3x.png</file>
+        <file>res/title_button_win/close_disable.png</file>
+        <file>res/title_button_win/close_disable@2x.png</file>
+        <file>res/title_button_win/close_disable@3x.png</file>
+        <file>res/title_button_win/close_hover.png</file>
+        <file>res/title_button_win/close_hover@2x.png</file>
+        <file>res/title_button_win/close_hover@3x.png</file>
+        <file>res/title_button_win/close_normal.png</file>
+        <file>res/title_button_win/close_normal@2x.png</file>
+        <file>res/title_button_win/close_normal@3x.png</file>
+        <file>res/title_button_win/maximize_click.png</file>
+        <file>res/title_button_win/maximize_click@2x.png</file>
+        <file>res/title_button_win/maximize_click@3x.png</file>
+        <file>res/title_button_win/maximize_disable.png</file>
+        <file>res/title_button_win/maximize_disable@2x.png</file>
+        <file>res/title_button_win/maximize_disable@3x.png</file>
+        <file>res/title_button_win/maximize_hover.png</file>
+        <file>res/title_button_win/maximize_hover@2x.png</file>
+        <file>res/title_button_win/maximize_hover@3x.png</file>
+        <file>res/title_button_win/maximize_normal.png</file>
+        <file>res/title_button_win/maximize_normal@2x.png</file>
+        <file>res/title_button_win/maximize_normal@3x.png</file>
+        <file>res/title_button_win/minimize_click.png</file>
+        <file>res/title_button_win/minimize_click@2x.png</file>
+        <file>res/title_button_win/minimize_click@3x.png</file>
+        <file>res/title_button_win/minimize_disable.png</file>
+        <file>res/title_button_win/minimize_disable@2x.png</file>
+        <file>res/title_button_win/minimize_disable@3x.png</file>
+        <file>res/title_button_win/minimize_hover.png</file>
+        <file>res/title_button_win/minimize_hover@2x.png</file>
+        <file>res/title_button_win/minimize_hover@3x.png</file>
+        <file>res/title_button_win/minimize_normal.png</file>
+        <file>res/title_button_win/minimize_normal@2x.png</file>
+        <file>res/title_button_win/minimize_normal@3x.png</file>
+        <file>res/title_button_win/restore_click.png</file>
+        <file>res/title_button_win/restore_click@2x.png</file>
+        <file>res/title_button_win/restore_click@3x.png</file>
+        <file>res/title_button_win/restore_disable.png</file>
+        <file>res/title_button_win/restore_disable@2x.png</file>
+        <file>res/title_button_win/restore_disable@3x.png</file>
+        <file>res/title_button_win/restore_hover.png</file>
+        <file>res/title_button_win/restore_hover@2x.png</file>
+        <file>res/title_button_win/restore_hover@3x.png</file>
+        <file>res/title_button_win/restore_normal.png</file>
+        <file>res/title_button_win/restore_normal@2x.png</file>
+        <file>res/title_button_win/restore_normal@3x.png</file>
+        <file>ui/components/IconButton.qml</file>
+        <file>ui/components/TitleBar.qml</file>
+        <file>ui/main.qml</file>
+    </qresource>
+    <qresource prefix="/common"/>
+</RCC>
