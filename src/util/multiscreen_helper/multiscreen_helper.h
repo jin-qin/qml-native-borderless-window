@@ -1,6 +1,7 @@
 ﻿#ifndef MULTISCREEN_HELPER_H
 #define MULTISCREEN_HELPER_H
 
+#ifdef Q_OS_WIN
 #include <QtGlobal>
 #include <QVector>
 #include <Windows.h>
@@ -54,5 +55,6 @@ private:
 
     static BOOL CALLBACK callbackGetScreenInfo(HMONITOR hMonitor,HDC, LPRECT,LPARAM lParam);
 };
+#endif
 
 #endif // MULTISCREEN_HELPTER_H

@@ -12,7 +12,7 @@ class NativeEventFilter
         : public QAbstractNativeEventFilter
 {
 public:
-    bool nativeEventFilter(const QByteArray &eventType, void *message, long *) override;
+    bool nativeEventFilter(const QByteArray &eventType, void *message, qintptr *result) override;
 
     void setWndTitleHeight(QWindow *wnd, int wndTitleHeight);
 

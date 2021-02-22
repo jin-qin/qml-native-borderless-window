@@ -7,10 +7,11 @@
 
 #include <QByteArray>
 #include <QWindow>
+#include <QVariant>
 
 #include <QDebug>
 
-bool NativeEventFilter::nativeEventFilter(const QByteArray &eventType, void *message, long *result)
+bool NativeEventFilter::nativeEventFilter(const QByteArray &eventType, void *message, qintptr *result)
 {
 #ifdef Q_OS_WIN
     if (eventType == "windows_generic_MSG") {
@@ -108,10 +109,14 @@ bool NativeEventFilter::nativeEventFilter(const QByteArray &eventType, void *mes
 
 void NativeEventFilter::setWndTitleHeight(QWindow *wnd, int wndTitleHeight)
 {
+#ifdef Q_OS_WIN
     m_wndsParams[wnd->winId()]["TitleHeight"] = wndTitleHeight;
+#endif
 }
 
 void NativeEventFilter::setWndTitleBarButtonsArea(QWindow *wnd, const QSize &wndTitleBarButtonsArea)
 {
+#ifdef Q_OS_WIN
     m_wndsParams[wnd->winId()]["TitleBarButtonsArea"] = wndTitleBarButtonsArea;
+#endif
 }

@@ -1,6 +1,5 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
-import QtGraphicalEffects 1.0
 
 import io.jin.qmlbe 1.0
 

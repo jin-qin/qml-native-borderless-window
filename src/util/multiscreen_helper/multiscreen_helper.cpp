@@ -1,4 +1,5 @@
-﻿#include "multiscreen_helper.h"
+﻿#ifdef Q_OS_WIN
+#include "multiscreen_helper.h"
 #include <QDebug>
 
 static QVector<MultiScreenHelper::ScreenInfo> m_allScreenInfo;
@@ -98,3 +99,4 @@ BOOL MultiScreenHelper::callbackGetScreenInfo(HMONITOR hMonitor, HDC, LPRECT, LP
     vpAllScInfo->push_back(sc_info);
     return TRUE;
 }
+#endif
